@@ -7,24 +7,48 @@ def 함수명(매개변수):
 '''
 
 
-# def plus(a, b):
-#     res = a + b
-#     return res
+def plus(a, b):
+    res = a + b
+    return res
 
-# def minus(a, b):
-#     res = a - b
-#     return res
+def minus(a, b):
+    res = a - b
+    return res
 
-# def multiple(a, b):
-#     res = a * b
-#     return res
+def multiple(a, b):
+    res = a * b
+    return res
 
-# def diviide(a, b):
-#      if b == 0:
-#          return 0
-#     res = a / b
-#     return res
+def diviide(a, b):
+      if b == 0:
+        return 0
+      res = a / b
+      return res
 
+def adds(*args): #parameter, arguments
+    res = 0
+    for i in args:
+        res += i
+
+    return res
+
+def mul_and_div(a, b):
+    return (a * b, a / b) # 튜블
+
+def add_and_minus_and_mul_and_div(a, b):
+    return (a+b, a-b, a*b, a/b)
+
+
+print(adds(1,2,3,4,5,6,7,8,9,10))
+print(adds(1,2,3))
+print(adds(5,7,9,11,455))
+
+(mul_val, div_val) = mul_and_div(16, 2)
+print(mul_val)
+print(div_val)
+print(mul_and_div(16, 2))
+
+print(add_and_minus_and_mul_and_div(17, 5))
 
 # print('계산기')
 # num = 0
@@ -79,29 +103,12 @@ def 함수명(매개변수):
 #     else:
 #         continue
 
-def adds(*args): #paramether, arguments 매개변수
-    res = 0
-    for i in args:
-        res += i
-    return res
+# def adds(*args): #paramether, arguments 매개변수
+#     res = 0
+#     for i in args:
+#         res += i
+#     return res
 
-print(adds(1,2,3,4,5,6,7,8,9,10))
-print(adds(1,2,3))
-print(adds(5,7,9,11,455))
-
-a=0
-b=0
-
-def add_and_minus_mul_and_div():
-    return(a+b, a-b, a*b,a/b)
-
-print(adds(1,2,3,4,5,6,7,8,9,10))
-print(adds(1,2,3))
-print(adds(5,7,9,11,455))
-
-(mul_val,div_val) = mul_and_div(16,2)
-print(mul_val)
-print(div_val)
-print(mul_and_div(16,2))
-
-print(add_and_minus_mul_and_div(17,5))
+# print(adds(1,2,3,4,5,6,7,8,9,10))
+# print(adds(1,2,3))
+# print(adds(5,7,9,11,455))
