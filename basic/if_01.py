@@ -4,7 +4,7 @@ from re import L
 
 
 name = '홍길동'
-gender = '여'
+gender = '남'
 
 if name == '홍길동' and gender == '남':   # 흐름마지막은 콜론
         print('진료실로 들어갑니다.')
