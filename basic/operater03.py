@@ -47,7 +47,7 @@ print(arr[3] * arr[2]) # 4라는 글자를 3번 반복출력
 # 이중 리스트
 arr2 = [1,2,3.14, ['Hi','My','Freinds']]
 print(arr2[2])
-print(arr2[3][1])  #my
+print(arr2[3][1])  #my 1(0),2(1),3.14(2).[](3)에서 hi(0),my(1),freinds(2)라서 my
 print(arr2[3][1][0])  #M
 
 arr3 = arr + arr2
