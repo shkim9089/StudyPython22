@@ -1,6 +1,5 @@
 # if 문
 
-from re import L
 
 
 name = '홍길동'

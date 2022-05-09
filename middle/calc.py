@@ -19,7 +19,7 @@ def multiple(a, b):
     res = a * b
     return res
 
-def diviide(a, b):
+def divide(a, b):
       if b == 0:
         return 0
       res = a / b
