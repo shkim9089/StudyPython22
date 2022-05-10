@@ -9,6 +9,7 @@ second = 'Wordl'
 print(first + second) # 문자열연산 + 합치기
 print(first, second) # CONCAST문자열 띄움
 
+
 print(first * 3) #문자열연산 *,+ 만 있음
 
 #문자열 길이 내장함수
