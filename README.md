@@ -70,5 +70,5 @@
 - 코딩테스트   
 
 ```python
-print('Hello, Python)
+print('Hello, Python')
 ```
