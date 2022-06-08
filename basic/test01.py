@@ -11,3 +11,7 @@ asia.add('중국')
 asia.remove('일본')
 asia.update({'미국'})
 print(asia)
+
+
+
+print((4<<3)<(3<<4))
